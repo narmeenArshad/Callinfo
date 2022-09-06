@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../../Content/CSS/index_1.css">
+
+	<!-- page CSS -->
+	<style>
+		.font {
+			font-family: 'Dancing Script';
+			text-shadow: 1px 1px 5px black;
+		}
+
+		.s-img {
+			width: 250px;
+			height: 168px;
+		}
+
+		.img-fluid {
+			height: 100vh;
+			width: 100vw;
+		}
+
+		body {
+			background-image: url(../../CallInfo\ \(1\).png);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+	</style>
+	<!-- page title -->
+	<title>CallInfo | Vivo Y21 A</title>
+</head>
+
+<body>
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-sm text-center navbar-dark bg-dark fixed-top" id="navBar">
+		<div class="container-fluid m-0 p-0 px-2">
+			<a class="navbar-brand font text-white px-3" href="../../index_1.html">Call<span
+					class="text-info">Info</span></a>
+			<div class="collapse navbar-collapse text-center" id="mynavbar">
+				<ul class=" navbar-nav mx-auto justify-content-center" id="ul">
+					<li class="nav-item">
+						<a class="pt-2 h4 nav-link" href="../../index_1.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="pt-2 h4 nav-link" href="../../index_1.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="pt-2 h4 nav-link" href="../../index_1.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="pt-2 h4 nav-link" href="#" data-bs-toggle="offcanvas"
+							data-bs-target="#OFFdemo">Menu</a>
+					</li>
+
+				</ul>
+
+			</div>
+			<form class="d-flex">
+				<input class="form-control me-2" type="text" placeholder="Search">
+				<button class="btn btn-primary" type="button">Search</button>
+			</form>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
+	</nav>
+	<!-- Offcanvas -->
+	<div class="offcanvas offcanvas-start" id="OFFdemo">
+		<div class="offcanvas-header">
+			<h1 class="h2 offcanvas-title">Explore more by..</h1>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+		</div>
+
+		<!-- Menu -->
+		<div class="offcanvas-body">
+			<!-- OffCanvas Model -->
+			<div class="container">
+				<div class="row">
+					<div class=" section h3 m-2 text-center">Model</div>
+				</div>
+				<div class="list-group list-unstyled text-center">
+					<li><a class="list-group-item dropdown-toggle h4 CSS" id="SamsungD" type="button"
+							href="#">Samsung</a>
+						<ul class="list-group list-unstyled">
+							<li><a target="_blank" class="list-group-item SamsungP m-2 h5" type="button"
+									href="../Samsung-pages/Samsung Galaxy S21 Ultra.html">Samsung Galaxy S21
+									Ultra</a></li>
+							<li><a target="_blank" class="list-group-item SamsungP m-2 h5" type="button"
+									href="../Samsung-pages/Samsung Galaxy A32.html">Samsung Galaxy A32</a>
+							</li>
+							<li><a target="_blank" class="list-group-item SamsungP m-2 h5" type="button"
+									href="../Samsung-pages/Samsung Galaxy S20.html">Samsung Galaxy S20</a>
+							</li>
+							<li><a target="_blank" class="list-group-item SamsungP m-2 h5" type="button"
+									href="../Samsung-pages/Samsung Galaxy A03.html">Samsung Galaxy A03</a>
+							</li>
+							<li><a target="_blank" class="list-group-item SamsungP m-2 h5" type="button"
+									href="../Samsung-pages/Samsung Galaxy A12 .html">Samsung Galaxy A12</a>
+							</li>
+						</ul>
+					</li>
+					<li><a class="list-group-item dropdown-toggle h4 CSS" id="iPhoneD" type="button" href="#">iPhone</a>
+						<ul class="list-group list-unstyled text-center">
+							<li><a class="list-group-item h5 iPhoneP m-2" type="button"
+									href="../iPhone-pages/Iphone-11.html">iPhone 11</a></li>
+							<li><a class="list-group-item h5 iPhoneP m-2" type="button"
+									href="../iPhone-pages/Iphone-12-mini.html">iPhone 12 Mini</a></li>
+							<li><a class="list-group-item h5 iPhoneP m-2" type="button"
+									href="../iPhone-pages/Iphone-12.html">iPhone 12</a></li>
+							<li><a class="list-group-item h5 iPhoneP m-2" type="button"
+									href="../iPhone-pages/Iphone-7-plus.html">iPhone 7 Plus</a></li>
+							<li><a class="list-group-item h5 iPhoneP m-2" type="button"
+									href="../iPhone-pages/Iphone-6s-plus.html">iPhone 6S Plus</a></li>
+						</ul>
+					</li>
+					<li><a class="list-group-item dropdown-toggle h4 CSS" id="HuaweiD" type="button" href="#">Huawei</a>
+						<ul class="list-group list-unstyled text-center">
+							<li><a class="list-group-item h5 HuaweiP m-2" type="button"
+									href="../Huawei-pages/Nova_7i.html">Huawei Nova 7i</a></li>
+							<li><a class="list-group-item h5 HuaweiP m-2" type="button"
+									href="../Huawei-pages/Y8Pro.html">Huawei Y8P</a></li>
+							<li><a class="list-group-item h5 HuaweiP m-2" type="button"
+									href="../Huawei-pages/Nova_9Pro.html">Huawei Nova 9 Pro</a>
+							</li>
+							<li><a class="list-group-item h5 HuaweiP m-2" type="button"
+									href="../Huawei-pages/Y6P.html">Huawei Y6P</a></li>
+							<li><a class="list-group-item h5 HuaweiP m-2" type="button"
+									href="../Huawei-pages/Y6S.html">Huawei Y6S</a></li>
+						</ul>
+					</li>
+					<li><a class="list-group-item dropdown-toggle h4 CSS" id="VivoD" type="button" href="#">Vivo</a>
+						<ul class="list-group list-unstyled text-center">
+							<li><a class="list-group-item h5 VivoP m-2" type="button"
+									href="../Vivo-pages/vivo y33T.html">Vivo Y33T</a></li>
+							<li><a class="list-group-item h5 VivoP m-2" type="button"
+									href="../Vivo-pages/vivo y01.html">Vivo Y01</a></li>
+							<li><a class="list-group-item h5 VivoP m-2" type="button"
+									href="../Vivo-pages/vivo y21a.html">Vivo Y 21A</a></li>
+							<li><a class="list-group-item h5 VivoP m-2" type="button"
+									href="../Vivo-pages/vivo x80.html">Vivo X 80</a></li>
+							<li><a class="list-group-item h5 VivoP m-2" type="button"
+									href="../Vivo-pages/vivo y90.html">Vivo Y90</a></li>
+						</ul>
+					</li>
+					<li><a class="list-group-item dropdown-toggle h4 CSS" id="InfinixD" type="button"
+							href="#">Infinix</a>
+						<ul class="list-group list-unstyled text-center">
+							<li><a class="list-group-item h5 InfinixP m-2" type="button"
+									href="../Infinix-pages/infinix hot 12.html">Infinix Hot 12</a>
+							</li>
+							<li><a class="list-group-item h5 InfinixP m-2" type="button"
+									href="../Infinix-pages/infinix hot 11s.html">Infinix Hot 11S</a>
+							</li>
+							<li><a class="list-group-item h5 InfinixP m-2" type="button"
+									href="../Infinix-pages/infinix zero x pro.html">Infinix Zero X Pro</a>
+							</li>
+							<li><a class="list-group-item h5 InfinixP m-2" type="button"
+									href="../Infinix-pages/infinix note 12.html">Infinix Note 12</a>
+							</li>
+							<li><a class="list-group-item h5 InfinixP m-2" type="button"
+									href="../Infinix-pages/infinix hot 10.html">Infinix Hot 10</a>
+							</li>
+						</ul>
+					</li>
+				</div>
+			</div>
+			<!-- OffCanvas Features -->
+			<div class="container">
+				<div class="row">
+					<div class=" section h3 m-2 text-center">Features</div>
+				</div>
+				<div class="list-group list-unstyled text-center">
+					<li><a class="list-group-item dropdown-toggle h4 CSS" id="CameraD" type="button" href="#">Camera</a>
+						<ul class="list-group list-unstyled">
+							<li><a class="list-group-item CameraP m-2 h5" type="button" target="_blank"
+									href="../../Features/Camera/8_13MP.html">8MP - 13MP</a></li>
+							<li><a class="list-group-item CameraP m-2 h5" type="button" target="_blank"
+									href="../../Features/Camera/16_48MP.html">16MP - 48MP</a></li>
+							<li><a class="list-group-item CameraP m-2 h5" type="button" target="_blank"
+									href="../../Features/Camera/50_64MP.html">50MP - 64MP</a></li>
+							<li><a class="list-group-item CameraP m-2 h5" type="button" target="_blank"
+									href="../../Features/Camera/100MP.html">100+ MP</a></li>
+
+						</ul>
+					</li>
+					<li><a class="list-group-item dropdown-toggle h4 CSS" id="RamRomD" type="button" href="#">RAM
+							and Chipset</a>
+						<ul class="list-group list-unstyled">
+							<li><a class="list-group-item RamRomP m-2 h5" type="button" target="_blank"
+									href="../../Features/Ram_Chipset/2-3GB.html">2 -3 GB
+									RAM</a></li>
+							<li><a class="list-group-item RamRomP m-2 h5" type="button" target="_blank"
+									href="../../Features/Ram_Chipset/4GB_Plus.html">4+ GB
+									RAM</a></li>
+							<li><a class="list-group-item RamRomP m-2 h5" type="button" target="_blank"
+									href="../../Features/Ram_Chipset/6GB_Plus.html">6+ GB
+									RAM</a></li>
+							<li><a class="list-group-item RamRomP m-2 h5" type="button" target="_blank"
+									href="../../Features/Ram_Chipset/12-16GB.html">12 - 16
+									GB RAM</a></li>
+						</ul>
+					</li>
+					<li><a class="list-group-item dropdown-toggle h4 CSS" id="BatteryD" type="button" href="#">Battery
+							Capacity</a>
+						<ul class="list-group list-unstyled">
+							<li><a class="list-group-item BatteryP m-2 h5" type="button" target="_blank"
+									href="../../Features/Battery_Capacity/Capacity_1.html">2227mAh - 2900mAh </a>
+							</li>
+							<li><a class="list-group-item BatteryP m-2 h5" type="button" target="_blank"
+									href="../../Features/Battery_Capacity/Capacity_2.html">3020mAh - 3110mAh</a>
+							</li>
+							<li><a class="list-group-item BatteryP m-2 h5" type="button" target="_blank"
+									href="../../Features/Battery_Capacity/Capacity_3.html">4000mAh - 45000mAh</a>
+							</li>
+							<li><a class="list-group-item BatteryP m-2 h5" type="button" target="_blank"
+									href="../../Features/Battery_Capacity/Capacity_4.html">5000mAh - 5200mAh</a>
+							</li>
+						</ul>
+					</li>
+					<li><a class="list-group-item dropdown-toggle h4 CSS" id="InternalMD" type="button"
+							href="#">Internal Memory</a>
+						<ul class="list-group list-unstyled">
+							<li><a class="list-group-item InternalMP m-2 h5" type="button" target="_blank"
+									href="../../Features/Internal_Memory/16_32GB.html">16GB - 32GB</a></li>
+							<li><a class="list-group-item InternalMP m-2 h5" type="button" target="_blank"
+									href="../../Features/Internal_Memory/64GB.html">64GB</a></li>
+							<li><a class="list-group-item InternalMP m-2 h5" type="button" target="_blank"
+									href="../../Features/Internal_Memory/128GB.html">128GB</a></li>
+							<li><a class="list-group-item InternalMP m-2 h5" type="button" target="_blank"
+									href="../../Features/Internal_Memory/256_512GB.html">256GB - 512GB</a>
+							</li>
+						</ul>
+					</li>
+				</div>
+			</div>
+			<!-- OffCanvas Price -->
+			<div class="container">
+				<div class="row">
+					<div class=" section h3 m-2 text-center">Price</div>
+				</div>
+				<div class="list-group list-unstyled text-center">
+					<li><a class="list-group-item dropdown-toggle h4 CSS" id="DropDown1" type="button" target="_blank"
+							href="../../Price/$90 -$149.html">$90 -$149</a></li>
+					<li><a class="list-group-item dropdown-toggle h4 CSS" id="DropDown1" type="button" target="_blank"
+							href="../../Price/$150 -$185.html">$150 -$185</a></li>
+					<li><a class="list-group-item dropdown-toggle h4 CSS" id="DropDown1" type="button" target="_blank"
+							href="../../Price/$190 -$399.html">$190 -$399</a></li>
+					<li><a class="list-group-item dropdown-toggle h4 CSS" id="DropDown1" type="button" target="_blank"
+							href="../../Price/$415 -$836.html">$415 -$836</a></li>
+					<li><a class="list-group-item dropdown-toggle h4 CSS" id="DropDown1" type="button" target="_blank"
+							href="../../Price/$930 -$1,295.html">$930 -$1,295</a></li>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container mt-1">
+		<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#OFFdemo">
+			Open Offcanvas Sidebar
+		</button>
+	</div>
+	<!-- Banner img -->
+	<div class="container mt-5 pt-5 justify-content-center">
+		<div class=" mb-5">
+			<img src="../../Content/Img/M_P_Imgs/Vivo-img/Y21_A/vivo-y21a-3.jpg" class="img-fluid"
+				alt="Samsung s21 ultra">
+			<h1 class="carousel-caption font display-1 text-white mb-5 pb-5"><span class="text-info">VIVO </span>Y21A
+			</h1>
+		</div>
+		<div class="container">
+			<!-- VIVO y01 details -->
+			<div class="text-center row bg-light pt-1">
+				<h1 class="mt-5 display-5 font">VIVO<span class="text-primary"> Y21A</span></h1>
+				<hr style="width:70%;" class="container mb-5">
+				<p class="text-center h4">Vivo Y21A price in US and launch offers.</p>
+				<p class="text-start col-text-center">Vivo price in US $224.
+					This is for the base variant that comes with 4GB of RAM and 64GB of internal storage.<br>
+					<b>Retail Price of Vivo Y21A in US $224.</b><br>
+					Smart tech Vivo is launching Y21a to the market soon. The smartphone company Vivo is busy expanding
+					its production, company is working on a new smartphone for its Y-series. The coming device will be a
+					mid-ranger and will be named a Vivo Y21a. The smartphone will be powered by one of the latest
+					chipsets available for smartphones in the market that is called Mediatek MT6762 Helio P22 (12 nm).
+					The upcoming new Vivo's Y21a has got a 2.0 GHz Octa-Core processor under the hood of this handset.
+					This new smartphone has got a 6.5 Inches screen size which is a big-screen display, with an IPS LCD
+					Capacitive Touchscreen, and this device Vivo Y21a's going to have a full-HD display with a
+					resolution of 720 x 1600 Pixels, and also there is a GPU of PowerVR GE8320 in this upcoming device.
+					The handset is packed with 4 gigabytes of RAM, which is more than enough RAM used in this smartphone
+					Vivo sharp Y21a so you can say that your phone is going to run at a super-fast speed because of its
+					powerful RAM. The upcoming all-new smartphone of the Chinese company Vivo has got 64 gigabytes of
+					storage in this Y21a, which means that the capacity of your data is unlimited. The device has got a
+					Dual Camera setup. The main sensor of the smartphone will be 13 megapixels, 2 megapixels. The selfie
+					shooter in this Y21a will be 8 megapixels to make taking selfies more easier and more attractive
+					with this new handset. The side-mounted sensor will allow the Y21a to protect their data by only
+					allowing the authorized person. The Y21a will be fueled with a Non-removable Li-Po 5000 mAh battery
+					which is a big battery, the device will give you more than one day of battery backup, also there is
+					Fast battery charging of 18W. The smartphone Y21a by Vivo will run on the Android 12.0 operating
+					system. Samsung and other tech giants will face serious competition when this Vivo Y21a will
+					release.
+				</p>
+				<!-- Vivo Y21A detailed specifications -->
+				<h2 class="font display-6">Vivo Y21A <span class="text-primary">detailed specifications </span></h2>
+				<hr style="width:70%;" class="container mb-5">
+				<div class="container">
+					<table class="table table-striped table-bordered">
+						<tbody>
+							<tr>
+								<td>Build OS</td>
+								<td>Android 12 OS</td>
+							</tr>
+							<tr>
+								<td>UI</td>
+								<td>Funtouch OS 11.1</td>
+							</tr>
+							<tr>
+								<td>Dimensions</td>
+								<td>164.3 x 76.1 x 8 mm</td>
+							</tr>
+							<tr>
+								<td>Weight</td>
+								<td>182 g </td>
+							</tr>
+							<tr>
+								<td>SIM</td>
+								<td>Dual Sim, Dual Standby (Nano-SIM)</td>
+							</tr>
+							<tr>
+								<td>Colors</td>
+								<td>Midnight Blue, Diamond Glow </td>
+							</tr>
+							<tr>
+								<td>Frequency</td>
+								<td><b>2G Band SIM1: </b>GSM 850 / 900 / 1800 / 1900 <b>SIM2:</b>GSM 850 / 900 / 1800 /
+									1900</td>
+							</tr>
+							<tr>
+								<td>3G Band</td>
+								<td>HSDPA 850 / 900 / 2100 </td>
+							</tr>
+							<tr>
+								<td>4G Band</td>
+								<td>LTE band 1(2100), 3(1800), 5(850), 8(900), 28(700), 38(2600), 40(2300), 41(2500).
+								</td>
+							</tr>
+							<tr>
+								<td>CPU</td>
+								<td>2.0 Ghz Octa Core</td>
+							</tr>
+							<tr>
+								<td>Chipset</td>
+								<td>Mediatek MT6762 Helio P22 (12 nm)</td>
+							</tr>
+							<tr>
+								<td>GPU</td>
+								<td>PowerVR GE8320 </td>
+							</tr>
+							<tr>
+								<td>Display Technology</td>
+								<td>IPS LCD Capacitive Touchscreen, 16M Colors, Multitouch </td>
+							</tr>
+							<tr>
+								<td>Size</td>
+								<td>6.5 Inches </td>
+							</tr>
+							<tr>
+								<td>Resolution</td>
+								<td>720 x 1600 Pixels (~270 PPI)</td>
+							</tr>
+							<tr>
+								<td>Memory</td>
+								<td>64GB Built-in, 4GB RAM </td>
+							</tr>
+							<tr>
+								<td>Card</td>
+								<td>microSD Card, (supports up to 1TB)</td>
+							</tr>
+							<tr>
+								<td>Camera Main</td>
+								<td>Dual 13 MP, f/2.2, (wide), PDAF + 2 MP, f/2.4, (macro), LED Flash</td>
+							</tr>
+							<tr>
+								<td>Features</td>
+								<td>Geo-tagging, Phase detection, Panorama, HDR, Video (1080p@30fps)</td>
+							</tr>
+							<tr>
+								<td>Front</td>
+								<td>8 MP, f/1.8, (wide), HDR, Video (1080p@30fps)</td>
+							</tr>
+							<tr>
+								<td>WLAN</td>
+								<td>Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot</td>
+							</tr>
+							<tr>
+								<td>Bluetooth</td>
+								<td>v5.0 with A2DP, LE </td>
+							</tr>
+							<tr>
+								<td>GPS</td>
+								<td>Yes + AGPS, GLONASS, BDS, GALILEO</td>
+							</tr>
+							<tr>
+								<td>Battery Capacity</td>
+								<td>(Li-Po Non removable), 5000 mAh<br>Fast charging 18W, Reverse charging</td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="d-flex justify-content-center align-items-center mb-3">
+						<div class="btn-group">
+							<a href="../Vivo-pages/Vivo Y 21A.docx" download="Vivo Y 21A" class="btn btn-dark">Download</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Gallery -->
+			<div class="row bg-light text-center mt-5 mb-3 pb-3 rounded">
+				<h2 class="font display-5" id="see-more">See M<span class="text-primary">ore</span></h2>
+				<hr style="width:70%;" class="container mb-5">
+
+				<div class="col-sm-12 col-md-4 col-lg-4 col-12 mb-1">
+					<div class="card shadow">
+						<img src="../../Content/Img/M_P_Imgs/Vivo-img/Y33_T/vivo-y33t-1.jpg" alt=""
+							class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<h3 class="font"><b>VIVO <span class="text-primary">Y33T</span></b></h3>
+							<p class="card-text"><b>A Stunning Variant Of The Company.</b>Price of Vivo Y33T in USD is
+								$214.</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+									<a target="_blank" href="../Vivo-pages/vivo y33T.html" class="btn btn-dark">View
+										<span class="text-info">more</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 col-lg-4 col-12 mb-1">
+					<div class="card shadow">
+						<img src="../../Content/Img/M_P_Imgs/Vivo-img/Y_90/vivo-y90-2.jpg" alt=""
+							class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<h3 class="font"><b>VIVO <span class="text-primary">Y90</span></b></h3>
+							<p class="card-text"><b>A Stunning Variant Of The Company.</b> Price of Vivo Y90 in USD is
+								$90.</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+									<a target="_blank" href="../Vivo-pages/vivo y90.html" class="btn btn-dark">View
+										<span class="text-info">more</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 col-lg-4 col-12 mb-1">
+					<div class="card shadow">
+						<img src="../../Content/Img/M_P_Imgs/Vivo-img/Y_01/vivo-y01-4.jpg" alt=""
+							class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<h3 class="font"><b>VIVO<span class="text-primary"> Y01</span></b></h3>
+							<p class="card-text"><b>Vivo Y01 - A Mid-Ranger Of The Company</b> Price of Vivo in USD is
+								$94.</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+									<a target="_blank" href="../Vivo-pages/vivo y01.html" class="btn btn-dark">View
+										<span class="text-info">more</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="bg-dark p-1">
+		<h3 class="font text-white text-center">Call<span class="text-info">Info</span></h3>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js">
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="../../Content/jQuery/main.js"></script>
+
+</body>
+
+</html>

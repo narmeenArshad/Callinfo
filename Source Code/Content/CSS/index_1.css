@@ -1,0 +1,55 @@
+* {
+    font-family: 'Istok Web', sans-serif;
+    /* font-family: 'Barlow Condensed', sans-serif; */
+}
+body, .parallax{
+    background-image: url(../../CallInfo\ \(1\).png);
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Vision_P,
+.SamsungP,
+.iPhoneP,
+.HuaweiP,
+.VivoP,
+.InfinixP,
+.CameraP,
+.RamRomP,
+.BatteryP,
+.InternalMP,
+#Contact_P {
+    display: none;
+}
+#OFFdemo {
+    background-image: url('../Img/Gallery/Sidebar.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section {
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 2rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    border-radius: 6px;
+    color: rgb(238, 214, 214);
+    padding: 3px;
+}
+.offcanvas-title{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: antiquewhite;
+    padding: 5px;
+}
+.CSS {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: whitesmoke;
+}
+#LOG {
+    display: none;
+}

@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features | Internal Memory (128GB)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../../Content/CSS/index_1.css">
+    <link rel="stylesheet" href="../Camera/CSS/index.css">
+    <style>
+        .card-body h1 {
+            color: black;
+            background-color: rgba(171, 171, 171, 0.711);
+            border-radius: 16px;
+        }
+    </style>
+
+</head>
+
+<body>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-sm text-center navbar-dark bg-dark fixed-top" id="navBar">
+    <div class="container-fluid m-0 p-0 px-2">
+        <a class="navbar-brand" id="navI" href="index_1.html"><img
+                src="../../content/Img/Logo/Free_Sample_By_Wix.jpg" alt=""></a>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class=" navbar-nav mx-auto justify-content-center" id="ul">
+                <li class="nav-item">
+                    <a class="ml-5 h1 nav-link" href="../../index_1.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="ml-5 h1 nav-link" href="../../index_1.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="ml-5 h1 nav-link" href="../../index_1.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="ml-5 h1 nav-link" href="#" data-bs-toggle="offcanvas"
+                        data-bs-target="#OFFdemo">Menu</a>
+                </li>
+
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <!-- <button class="btn btn-primary" type="button">Search</button> -->
+            </form>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</nav>
+
+    <!-- Offcanvas -->
+    <div class="offcanvas offcanvas-start" id="OFFdemo">
+        <div class="offcanvas-header">
+            <h1 class="h2 offcanvas-title">Explore more by..</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+
+        <!-- Menu -->
+        <div class="offcanvas-body">
+            <!-- OffCanvas Model -->
+            <div class="container">
+                <div class="row">
+                    <div class=" section h3 m-2 text-center">Model</div>
+                </div>
+                <div class="list-group list-unstyled text-center">
+                    <li><a class="list-group-item dropdown-toggle h4 CSS" id="SamsungD" type="button"
+                            href="#">Samsung</a>
+                        <ul class="list-group list-unstyled">
+                            <li><a target="_blank" class="list-group-item SamsungP m-2 h5" type="button"
+                                    href="Samsung/Samsung Galaxy S21 Ultra.html">Samsung Galaxy S21
+                                    Ultra</a></li>
+                            <li><a target="_blank" class="list-group-item SamsungP m-2 h5" type="button"
+                                    href="#">Samsung Galaxy A32</a>
+                            </li>
+                            <li><a target="_blank" class="list-group-item SamsungP m-2 h5" type="button"
+                                    href="Samsung/Samsung Galaxy S20.html">Samsung Galaxy S20</a>
+                            </li>
+                            <li><a target="_blank" class="list-group-item SamsungP m-2 h5" type="button"
+                                    href="#">Samsung Galaxy A03</a>
+                            </li>
+                            <li><a target="_blank" class="list-group-item SamsungP m-2 h5" type="button"
+                                    href="#">Samsung Galaxy A12</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="list-group-item dropdown-toggle h4 CSS" id="iPhoneD" type="button" href="#">iPhone</a>
+                        <ul class="list-group list-unstyled text-center">
+                            <li><a class="list-group-item h5 iPhoneP m-2" type="button" href="#">iPhone 11</a></li>
+                            <li><a class="list-group-item h5 iPhoneP m-2" type="button" href="#">iPhone 12 Mini</a></li>
+                            <li><a class="list-group-item h5 iPhoneP m-2" type="button" href="#">iPhone 12</a></li>
+                            <li><a class="list-group-item h5 iPhoneP m-2" type="button" href="#">iPhone 7 Plus</a></li>
+                            <li><a class="list-group-item h5 iPhoneP m-2" type="button" href="#">iPhone 6S Plus</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="list-group-item dropdown-toggle h4 CSS" id="HuaweiD" type="button" href="#">Huawei</a>
+                        <ul class="list-group list-unstyled text-center">
+                            <li><a class="list-group-item h5 HuaweiP m-2" type="button" href="#">Huawei Nova 7i</a></li>
+                            <li><a class="list-group-item h5 HuaweiP m-2" type="button" href="#">Huawei Y8P</a></li>
+                            <li><a class="list-group-item h5 HuaweiP m-2" type="button" href="#">Huawei Nova 9 Pro</a>
+                            </li>
+                            <li><a class="list-group-item h5 HuaweiP m-2" type="button" href="#">Huawei Y6P</a></li>
+                            <li><a class="list-group-item h5 HuaweiP m-2" type="button" href="#">Huawei Y6S</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="list-group-item dropdown-toggle h4 CSS" id="VivoD" type="button" href="#">Vivo</a>
+                        <ul class="list-group list-unstyled text-center">
+                            <li><a class="list-group-item h5 VivoP m-2" type="button" href="#">Vivo Y33T</a></li>
+                            <li><a class="list-group-item h5 VivoP m-2" type="button" href="#">Vivo Y01</a></li>
+                            <li><a class="list-group-item h5 VivoP m-2" type="button" href="#">Vivo Y 21A</a></li>
+                            <li><a class="list-group-item h5 VivoP m-2" type="button" href="#">Vivo X 80</a></li>
+                            <li><a class="list-group-item h5 VivoP m-2" type="button" href="#">Vivo Y90</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="list-group-item dropdown-toggle h4 CSS" id="InfinixD" type="button"
+                            href="#">Infinix</a>
+                        <ul class="list-group list-unstyled text-center">
+                            <li><a class="list-group-item h5 InfinixP m-2" type="button" href="#">Infinix Hot 12</a>
+                            </li>
+                            <li><a class="list-group-item h5 InfinixP m-2" type="button" href="#">Infinix Hot 11S</a>
+                            </li>
+                            <li><a class="list-group-item h5 InfinixP m-2" type="button" href="#">Infinix Zero X Pro</a>
+                            </li>
+                            <li><a class="list-group-item h5 InfinixP m-2" type="button" href="#">Infinix Note 12</a>
+                            </li>
+                            <li><a class="list-group-item h5 InfinixP m-2" type="button" href="#">Infinix Hot 10</a>
+                            </li>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+             <!-- OffCanvas Features -->
+             <div class="container">
+                <div class="row">
+                    <div class=" section h3 m-2 text-center">Features</div>
+                </div>
+                <div class="list-group list-unstyled text-center">
+                    <li><a class="list-group-item dropdown-toggle h4 CSS" id="CameraD" type="button" href="#">Camera</a>
+                        <ul class="list-group list-unstyled">
+                            <li><a class="list-group-item CameraP m-2 h5" type="button" href="../Camera/8_13MP.html">8MP - 13MP</a></li>
+                            <li><a class="list-group-item CameraP m-2 h5" type="button" href="../Camera/16_48MP.html">16MP -
+                                    48MP</a></li>
+                            <li><a class="list-group-item CameraP m-2 h5" type="button" href="../Camera/50_64MP.html">50MP -
+                                    64MP</a></li>
+                            <li><a class="list-group-item CameraP m-2 h5" type="button" href="../Camera/100MP.html">100+ MP</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li><a class="list-group-item dropdown-toggle h4 CSS" id="RamRomD" type="button" href="#">RAM
+                            and Chipset</a>
+                        <ul class="list-group list-unstyled">
+                            <li><a class="list-group-item RamRomP m-2 h5" type="button" href="../Ram_Chipset/2-3GB.html">2 -3 GB RAM</a></li>
+                            <li><a class="list-group-item RamRomP m-2 h5" type="button" href="../Ram_Chipset/4GB_Plus.html">4+ GB RAM</a></li>
+                            <li><a class="list-group-item RamRomP m-2 h5" type="button" href="../Ram_Chipset/6GB_Plus.html">6+ GB RAM</a></li>
+                            <li><a class="list-group-item RamRomP m-2 h5" type="button" href="../Ram_Chipset/12-16GB.html">12 - 16 GB RAM</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li><a class="list-group-item dropdown-toggle h4 CSS" id="BatteryD" type="button" href="#">Battery
+                            Capacity</a>
+                        <ul class="list-group list-unstyled">
+                            <li><a class="list-group-item BatteryP m-2 h5" type="button" href="../Battery_Capacity/Capacity_1.html">2227mAh - 2900mAh </a>
+                            </li>
+                            <li><a class="list-group-item BatteryP m-2 h5" type="button" href="../Battery_Capacity/Capacity_2.html">3020mAh - 3110mAh</a>
+                            </li>
+                            <li><a class="list-group-item BatteryP m-2 h5" type="button" href="../Battery_Capacity/Capacity_3.html">4000mAh - 45000mAh</a>
+                            </li>
+                            <li><a class="list-group-item BatteryP m-2 h5" type="button" href="../Battery_Capacity/Capacity_4.html">5000mAh - 5200mAh</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="list-group-item dropdown-toggle h4 CSS" id="InternalMD" type="button"
+                            href="#">Internal
+                            Memory</a>
+                        <ul class="list-group list-unstyled">
+                            <li><a class="list-group-item InternalMP m-2 h5" type="button" href="16_32GB.html">16GB - 32GB</a></li>
+                            <li><a class="list-group-item InternalMP m-2 h5" type="button" href="64GB.html">64GB</a></li>
+                            <li><a class="list-group-item InternalMP m-2 h5" type="button" href="128GB.html">128GB</a></li>
+                            <li><a class="list-group-item InternalMP m-2 h5" type="button" href="256_512GB.html">256GB - 512GB</a>
+                            </li>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+            <!-- OffCanvas Price -->
+            <div class="container">
+                <div class="row">
+                    <div class=" section h3 m-2 text-center">Price</div>
+                </div>
+                <div class="list-group list-unstyled text-center">
+                    <li><a class="list-group-item dropdown-toggle h4 CSS" id="DropDown1" type="button" href="../../Price/$90 -$149.html">$90 - $149</a></li>
+                    <li><a class="list-group-item dropdown-toggle h4 CSS" id="DropDown1" type="button" href="../../Price/$150 -$185.html">$150 - $185</a></li>
+                    <li><a class="list-group-item dropdown-toggle h4 CSS" id="DropDown1" type="button" href="../../Price/$190 -$399.html">$190 - $399</a></li>
+                    <li><a class="list-group-item dropdown-toggle h4 CSS" id="DropDown1" type="button" href="../../Price/$415 -$836.html">$415 - $836</a></li>
+                    <li><a class="list-group-item dropdown-toggle h4 CSS" id="DropDown1" type="button" href="../../Price/$930 -$1,295.html">$930 - $1,295</a></li>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   <!-- Carousel -->
+   <div class="container">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner mt-5">
+                <div class="carousel-item mt-5 active">
+                    <img src="../../Content/Img/Gallery/Features_RnC3.jpg" class=" d-block w-100 h-100"
+                        alt="Banner_1">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-1 text-dark fw-light m-3">Camera</h1>
+                    <p class="lead display-6 text-dark">Today’s smartphones come equipped with a very comprehensive
+                        set of camera related specifications. Smartphone, for many of us, has become our primary
+                        camera due to it being the one we always have with us.
+                    </p>
+                </div> -->
+                </div>
+                <div class="carousel-item mt-5">
+                    <img src="../../Content/Img/Gallery/Features_RnC2.jpg" class="img-fluid d-block w-100 h-100"
+                        alt="Banner_2">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-1">Elegent and Sleek Models</h5>
+                    <p class="display-6">Find the best that describes your style..</p>
+                </div> -->
+                </div>
+                <div class="carousel-item mt-5">
+                    <img src="../../Content/Img/Gallery/Features_RnC1.jpg" class="img-fluid d-block w-100 h-100"
+                        alt="Banner_3">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-1">Mobile Photography</h5>
+                    <p class="display-6">Your Pocket Friendly Camera..</p>
+                </div> -->
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
+    <!-- Gallery -->
+    <div class="container">
+        <section class="py-0 my-3 text-center bg-light container">
+            <div class="row py-lg-3">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="display-1 fw-light">Gallery</h1>
+                    <p class="lead text-muted display-6">Internal Memory (128GB)</p>
+                </div>
+            </div>
+        </section>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 my-5">
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/Samsung/S21_Ultra/SamsungS21_5.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>Samsung Galaxy S21 Ultra</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">Samsung Galaxy S21 Ultra</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/Samsung-pages/Samsung Galaxy S21 Ultra.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/Samsung/Galaxy A32/samsung-galaxy-a32-5.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>Samsung Galaxy A32</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">Samsung Galaxy A32</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/Samsung-pages/Samsung Galaxy A32.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/Samsung/Galaxy S20/samsung-galaxy-s20-5.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>Samsung Galaxy S20</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">Samsung Galaxy S20</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/Samsung-pages/Samsung Galaxy S20.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 my-5">
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/Samsung/Galaxy A03/samsung-galaxy-a03-3.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>Samsung Galaxy A03</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">Samsung Galaxy A03</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/Samsung-pages/Samsung Galaxy A03.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/Samsung/Galaxy A12/samsung-galaxy-a12-6.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>Samsung Galaxy A12</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">Samsung Galaxy A12</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/Samsung-pages/Samsung Galaxy A12 .html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/iPhone/11/apple-iphone-11-1.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>iPhone 11</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">iPhone 11</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/iPhone-pages/Iphone-11.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 my-5">
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/iPhone/12_mini/iphone-12-mini-5.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>iPhone 12 Mini</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">iPhone 12 Mini</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/iPhone-pages/Iphone-12-mini.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/iPhone/7_plus/iphone-7-plus-4.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>iPhone 7 Plus</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">iPhone 7 Plus</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/iPhone-pages/Iphone-7-plus.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/iPhone/6_s_plus/iphone6s-plus-5.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>iPhone 6S Plus</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">iPhone 6S Plus</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/iPhone-pages/Iphone-6s-plus.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 my-5">
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/Huawei/Nova_7i/Nova_7i_3.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>Huawei Nova 7i</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">Huawei Nova 7i</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/Huawei-pages/Nova_7i.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/Huawei/Y8Pro/Y8P_3.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>Huawei Y8P</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">Huawei Y8P</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/Huawei-pages/Y8Pro.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/Huawei/Nova_9Pro/Nova_9Pro_3.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>Huawei Nova 9 Pro</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">Huawei Nova 9 Pro</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/Huawei-pages/Nova_9Pro.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 my-5">
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/Vivo/Y33_T/y33s-2.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>Vivo Y33t</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">Vivo Y33t</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/Vivo-pages/vivo y33T.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/Vivo/X_80/Y_80.webp"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>Vivo X80</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">Vivo X80</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/Vivo-pages/vivo x80.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/Infinix/hot_12/hot12-4.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>Infinix Hot 12</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">Infinix Hot 12</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/Infinix-pages/infinix hot 12.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 my-5">
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/Infinix/Hot_11S/hot11s-3.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>Infinix Hot 11S</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">Infinix Hot 11S</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/Infinix-pages/infinix hot 11s.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/Infinix/zero_XPro/zero-x-pro-5.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>Infinix Zero X Pro</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">Infinix Zero X Pro</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/Infinix-pages/infinix zero x pro.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/Infinix/Note_12/infinix-Note-12.webp"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>Infinix Note 12</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">Infinix Note 12</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/Infinix-pages/infinix note 12.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 my-5">
+            <div class="col my-5">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="card shadow-sm flip-card-front">
+                            <img class="card-img-top img-fluid"
+                                src="../../Content/Img/M_P_Imgs/Infinix/Hot_10/hot10-3.jpg"
+                                alt="Card image">
+                            <div class="card-body">
+                                <h1 class="display-6 fw-light"><strong>Infinix Hot 10</strong></h1>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class=" mt-5 h2">Infinix Hot 10</div>
+                            <div class=" mt-3 h3">128GB</div>
+                            <div class="btn-group">
+                                <a href="../../Models/Infinix-pages/infinix hot 10.html" type="button" class="mt-2 btn btn-sm btn-outline-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../../Content/jQuery/main.js"></script>
+</body>
+
+</html>
